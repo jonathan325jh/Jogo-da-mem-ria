@@ -1,0 +1,20 @@
+body{
+    background: url("fundo2.webp") no-repeat center/cover;
+}
+
+.botao{
+    margin-top: 40px; 
+}
+
+.container {
+    width: 300px;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+  
+
+  button{
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;"
+  }
