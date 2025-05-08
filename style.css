@@ -3,7 +3,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url("https://external-preview.redd.it/6rUg9jvZQG8JGzawc645Jya8MYedLkwBDiN5Yar8h6k.jpg?auto=webp&s=a529f18f56c76951bd2a41a5c3a2c4f1844da1bb");
+    background-image: url("fundo2.webp");
     background-size: cover;
     width: 100%;
     min-height: 100vh; /* Garante que a imagem cubra toda a altura da tela inicialmente */
