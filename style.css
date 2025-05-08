@@ -4,7 +4,12 @@ body{
 
 #tabuleiro {
     border-collapse: collapse;
-    margin: 20px; /* Adicionado um pouco de margem ao redor da tabela */
+    margin: 20px; 
+}
+
+#tabuleiro {
+    border-collapse: collapse;
+    margin: 20px;
 }
 
 #tabuleiro td {
@@ -14,5 +19,5 @@ body{
     font-size: 2em;
     border: 1px solid #ccc;
     cursor: pointer;
-    background-color: #eee; /* Cor de fundo das cartas (viradas para baixo) */
+    background-color: #eee;
 }
