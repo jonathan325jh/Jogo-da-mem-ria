@@ -2,9 +2,8 @@ body{
     background: url("fundo2.webp") no-repeat center/cover;
 }
 
-#tabuleiro {
-    border-collapse: collapse;
-    margin: 20px; 
+h1 {
+    margin-bottom: 20px;
 }
 
 #tabuleiro {
