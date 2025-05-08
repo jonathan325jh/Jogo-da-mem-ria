@@ -24,11 +24,11 @@ h1 {
 }
 
 #tabuleiro td {
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 130px;
     text-align: center;
     font-size: 2em;
-    border: 1px solid #ccc;
+    border: 5px solid #ccc;
     cursor: pointer;
     background-color: #eee;
 }
