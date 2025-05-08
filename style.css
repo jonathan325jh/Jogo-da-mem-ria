@@ -6,21 +6,21 @@ body {
     background-image: url("fundo2.webp");
     background-size: cover;
     width: 100%;
-    min-height: 100vh; /* Garante que a imagem cubra toda a altura da tela inicialmente */
-    margin: 0; /* Remove margens padrão do body */
+    min-height: 100vh;
+    margin: 0; 
 }
 
 h1 {
-    color: white; /* Texto branco para melhor contraste com a imagem de fundo */
+    color: white; 
     margin-bottom: 20px;
 }
 
 #tabuleiro {
     border-collapse: collapse;
     margin: 20px;
-    background-color: rgba(255, 255, 255, 0.8); /* Fundo semi-transparente para a tabela */
-    padding: 20px; /* Adiciona um pouco de espaço interno na tabela */
-    border-radius: 10px; /* Deixa as bordas da tabela um pouco arredondadas */
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 20px;
+    border-radius: 10px;
 }
 
 #tabuleiro td {
