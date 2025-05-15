@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+    <title>Jumpscare</title>
+    <style>
+    #jumpscare {
+      position: fixed; 
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%); 
+      width: 200px; 
+      height: 100px; 
+      background-image: url(hq720.jpg); 
+      background-image: url(hq720.jpg); 
+      font-size: 20px; 
+      text-align: center; 
+      line-height: 100px; 
+      display: none; 
+    }
+    </style>
+    </head>
+    <body>
+    <h1>Clique aqui para ver um jumpscare</h1>
+    <div id="jumpscare">
+      <h2><img src="hq720.jpg" alt=""></h2>
+    </div>
+    <script>
+    const jumpscare = document.getElementById("jumpscare");
+    const link = document.querySelector("h1"); 
+    link.addEventListener("click", function() {
+      jumpscare.style.display = "block"; 
+      setTimeout(() => {
+        jumpscare.style.display = "none"; // Oculta após um tempo
+      }, 2000); // 2 segundos
+    });
+    </script>
+    </body>
+    </html>
